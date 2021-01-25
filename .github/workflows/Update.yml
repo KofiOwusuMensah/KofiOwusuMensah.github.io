@@ -16,4 +16,5 @@ jobs:
             port: ${{ secrets.PORT }}
             script: |
               cd ../pub
+              cd KofiOwusuMensah.github.io/
               git pull https://github.com/KofiOwusuMensah/KofiOwusuMensah.github.io.git
